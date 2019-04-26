@@ -81,7 +81,7 @@ struct2json.Convert(input)
 
 ## traps
 
-* Only `pointer` can have nil value, so if you do not want the `Go's default value`, use pointer filed.
+* Only `pointer` can have nil value, so if you do not want the `Go's default value`, use pointer field.
 * Only `struct` or `pointer to struct` support `noroot` tag
 * Once `noroot` meet same json tag, a `replace` action will be happend
 
